@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.omc/
+.impeccable/
+# 実在企業の決算書・出力物は絶対にコミットしない
+financials.json
+out/
+deliverables/

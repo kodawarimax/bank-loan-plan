@@ -1,0 +1,22 @@
+{
+  "_how_to": "決算書3期分から転記する。単位は円・税別経理のまま。古い期→新しい期の順。読み取った数値は人間が原本と照合してから verified_by_human を true にする。",
+  "_fields": {
+    "sales": "売上高（完成工事高を含む）", "cost_of_sales": "売上原価（完成工事原価）", "sga": "販売費及び一般管理費",
+    "depreciation": "減価償却費（原価報告書と販管費の合計）", "interest_expense": "支払利息", "ordinary_income": "経常利益",
+    "net_income": "当期純利益（税引後）", "cash": "現金及び預金", "receivables": "受取手形・売掛金・完成工事未収入金",
+    "inventories": "棚卸資産・未成工事支出金", "payables": "支払手形・買掛金・工事未払金",
+    "interest_bearing_debt": "短期借入金＋1年内返済長期借入金＋長期借入金＋社債（役員借入金は除く）",
+    "officer_loans": "役員借入金", "annual_principal_repayment": "年間元金返済額（借入金明細・返済予定表。なければ1年内返済予定額）",
+    "net_assets": "純資産合計", "total_assets": "資産合計"
+  },
+  "company": "（会社名）",
+  "fiscal_year_end_month": null,
+  "unit": "円",
+  "verified_by_human": false,
+  "source_files": ["/absolute/path/to/決算書_第N-2期.pdf", "/absolute/path/to/決算書_第N-1期.pdf", "/absolute/path/to/決算書_第N期.pdf"],
+  "periods": [
+    {"label": "第N-2期", "period_end": "YYYY-MM-DD", "sales": null, "cost_of_sales": null, "sga": null, "depreciation": null, "interest_expense": null, "ordinary_income": null, "net_income": null, "cash": null, "receivables": null, "inventories": null, "payables": null, "interest_bearing_debt": null, "officer_loans": null, "annual_principal_repayment": null, "net_assets": null, "total_assets": null},
+    {"label": "第N-1期", "period_end": "YYYY-MM-DD", "sales": null, "cost_of_sales": null, "sga": null, "depreciation": null, "interest_expense": null, "ordinary_income": null, "net_income": null, "cash": null, "receivables": null, "inventories": null, "payables": null, "interest_bearing_debt": null, "officer_loans": null, "annual_principal_repayment": null, "net_assets": null, "total_assets": null},
+    {"label": "第N期", "period_end": "YYYY-MM-DD", "sales": null, "cost_of_sales": null, "sga": null, "depreciation": null, "interest_expense": null, "ordinary_income": null, "net_income": null, "cash": null, "receivables": null, "inventories": null, "payables": null, "interest_bearing_debt": null, "officer_loans": null, "annual_principal_repayment": null, "net_assets": null, "total_assets": null}
+  ]
+}

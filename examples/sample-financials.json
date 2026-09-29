@@ -1,0 +1,13 @@
+{
+  "_note": "架空のサンプル（自己テスト・動作確認用）。実在企業の数値ではない。",
+  "company": "（架空）サンプル建設株式会社",
+  "fiscal_year_end_month": 3,
+  "unit": "円",
+  "verified_by_human": false,
+  "source_files": ["examples/sample-financials.json"],
+  "periods": [
+    {"label": "2024年3月期", "period_end": "2024-03-31", "sales": 580000000, "cost_of_sales": 440800000, "sga": 118000000, "depreciation": 3500000, "interest_expense": 1200000, "ordinary_income": 20500000, "net_income": 13000000, "cash": 62000000, "receivables": 70000000, "inventories": 8000000, "payables": 45000000, "interest_bearing_debt": 60000000, "officer_loans": 0, "annual_principal_repayment": 12000000, "net_assets": 150000000, "total_assets": 260000000},
+    {"label": "2025年3月期", "period_end": "2025-03-31", "sales": 610000000, "cost_of_sales": 461000000, "sga": 124000000, "depreciation": 3800000, "interest_expense": 1100000, "ordinary_income": 24500000, "net_income": 15800000, "cash": 70000000, "receivables": 74000000, "inventories": 8500000, "payables": 47000000, "interest_bearing_debt": 52000000, "officer_loans": 0, "annual_principal_repayment": 12000000, "net_assets": 166000000, "total_assets": 275000000},
+    {"label": "2026年3月期", "period_end": "2026-03-31", "sales": 630000000, "cost_of_sales": 474000000, "sga": 131000000, "depreciation": 4000000, "interest_expense": 1000000, "ordinary_income": 24400000, "net_income": 15600000, "cash": 75000000, "receivables": 76000000, "inventories": 9000000, "payables": 49000000, "interest_bearing_debt": 45000000, "officer_loans": 0, "annual_principal_repayment": 12000000, "net_assets": 181000000, "total_assets": 288000000}
+  ]
+}
